@@ -532,7 +532,9 @@ Navbar
   .nav-links {
     height: auto;
     display: flex;
+
   }
+  
   .nav-center {
     display: flex;
     justify-content: space-between;
@@ -566,5 +568,10 @@ Navbar
   }
   .nav-icon:hover {
     color: var(--clr-primary-8);
+  }
+  .nav-links.show {
+    height: 280px;
+    display: flex;
+    flex-direction: column;
   }
 }
